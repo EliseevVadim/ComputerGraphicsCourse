@@ -1,0 +1,9 @@
+D:\КГ\Lab5_Course2\Lab5_Course2\bin\Debug\Lab5_Course2.exe.config
+D:\КГ\Lab5_Course2\Lab5_Course2\bin\Debug\Lab5_Course2.exe
+D:\КГ\Lab5_Course2\Lab5_Course2\bin\Debug\Lab5_Course2.pdb
+D:\КГ\Lab5_Course2\Lab5_Course2\obj\Debug\Lab5_Course2.csprojAssemblyReference.cache
+D:\КГ\Lab5_Course2\Lab5_Course2\obj\Debug\Lab5_Course2.Properties.Resources.resources
+D:\КГ\Lab5_Course2\Lab5_Course2\obj\Debug\Lab5_Course2.csproj.GenerateResource.cache
+D:\КГ\Lab5_Course2\Lab5_Course2\obj\Debug\Lab5_Course2.exe
+D:\КГ\Lab5_Course2\Lab5_Course2\obj\Debug\Lab5_Course2.pdb
+D:\КГ\Lab5_Course2\Lab5_Course2\obj\Debug\Lab5_Course2.Form1.resources
