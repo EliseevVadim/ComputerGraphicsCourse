@@ -78,7 +78,6 @@ namespace Lab8_Course2
         {
             Image image = Image.FromFile(@"картинки/меню1.jpg");
             helpBuff.DrawImage(image, 0, 0, ClientRectangle.Width, ClientRectangle.Height);
-            image = Image.FromFile(@"картинки/help_box.png");
             StringFormat stringFormat = new StringFormat();
             stringFormat.Alignment = StringAlignment.Center;
             stringFormat.LineAlignment = StringAlignment.Center;
