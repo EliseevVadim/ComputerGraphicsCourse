@@ -1,0 +1,8 @@
+D:\КГ\Lab10_Course2\Lab10_Course2\bin\Debug\Lab10_Course2.exe
+D:\КГ\Lab10_Course2\Lab10_Course2\bin\Debug\Lab10_Course2.pdb
+D:\КГ\Lab10_Course2\Lab10_Course2\obj\Debug\Lab10_Course2.csprojAssemblyReference.cache
+D:\КГ\Lab10_Course2\Lab10_Course2\obj\Debug\Lab10_Course2.Form1.resources
+D:\КГ\Lab10_Course2\Lab10_Course2\obj\Debug\Lab10_Course2.Properties.Resources.resources
+D:\КГ\Lab10_Course2\Lab10_Course2\obj\Debug\Lab10_Course2.csproj.GenerateResource.cache
+D:\КГ\Lab10_Course2\Lab10_Course2\obj\Debug\Lab10_Course2.exe
+D:\КГ\Lab10_Course2\Lab10_Course2\obj\Debug\Lab10_Course2.pdb
