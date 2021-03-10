@@ -47,8 +47,8 @@ namespace Lab12_Course2
             Random random=new Random();
             for(int i=0; i<40; i++)
             {
-                x[i] = random.Next(1, 10);
-                y[i] = random.Next(1, 7);
+                x[i] = random.Next(1, 10) + random.NextDouble();
+                y[i] = random.Next(1, 7) + random.NextDouble();
             }
             for(int i=0; i<x.Length; i++)
             {
