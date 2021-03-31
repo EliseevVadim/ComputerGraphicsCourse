@@ -1,0 +1,8 @@
+D:\КГ\GenPlot\GenPlot\bin\Debug\GenPlot.exe
+D:\КГ\GenPlot\GenPlot\bin\Debug\GenPlot.pdb
+D:\КГ\GenPlot\GenPlot\obj\Debug\GenPlot.csprojAssemblyReference.cache
+D:\КГ\GenPlot\GenPlot\obj\Debug\GenPlot.Form1.resources
+D:\КГ\GenPlot\GenPlot\obj\Debug\GenPlot.Properties.Resources.resources
+D:\КГ\GenPlot\GenPlot\obj\Debug\GenPlot.csproj.GenerateResource.cache
+D:\КГ\GenPlot\GenPlot\obj\Debug\GenPlot.exe
+D:\КГ\GenPlot\GenPlot\obj\Debug\GenPlot.pdb
