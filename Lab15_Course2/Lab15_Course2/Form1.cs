@@ -20,7 +20,6 @@ namespace Lab15_Course2
     {
         Graphics graphics;
         int height = 50;
-        Point3D[] vertices;
         double v11, v12, v13, v21, v22, v23, v32, v33, v43;
         double rho = 250.0, theta = 320.0, phi = 45.0;
         double c1 = 5.0, c2 = 3.5;
@@ -30,12 +29,12 @@ namespace Lab15_Course2
             graphics.Clear(Color.White);
             phi = trackBar2.Value;
             CalculateCoefficients(rho, theta, phi);
-            DrawCube(height);
+            DrawParallelipiped(height);
         }
         private void Form1_Load(object sender, EventArgs e)
         {
             CalculateCoefficients(rho, theta, phi);
-            DrawCube(height);
+            DrawParallelipiped(height);
         }
         public Form1()
         {
@@ -47,7 +46,7 @@ namespace Lab15_Course2
             graphics.Clear(Color.White);
             theta = trackBar1.Value;
             CalculateCoefficients(rho, theta, phi);
-            DrawCube(height);
+            DrawParallelipiped(height);
         }
         private int IX(double x)
         {
@@ -59,20 +58,20 @@ namespace Lab15_Course2
             double yy = pictureBox1.Size.Height - y * (pictureBox1.Size.Height / 7.0) + 0.5;
             return (int)yy;
         }
-        private void DrawCube(double h)
+        private void DrawParallelipiped(double h)
         {
-            DrawPerspectiveLine(h, -h, -h, h, h, -h);
-            DrawPerspectiveLine(h, h, -h, -h, h, -h);
-            DrawPerspectiveLine(-h, h, -h, -h, h, h);
-            DrawPerspectiveLine(-h, h, h, -h, -h, h);
-            DrawPerspectiveLine(-h, -h, h, h, -h, h);
-            DrawPerspectiveLine(h, -h, h, h, -h, -h);
-            DrawPerspectiveLine(h, h, -h, h, h, h);
-            DrawPerspectiveLine(h, h, h, -h, h, h);
-            DrawPerspectiveLine(h, h, h, h, -h, h);
-            DrawPerspectiveLine(h, -h, -h, -h, -h, -h);
-            DrawPerspectiveLine(-h, -h, -h, -h, h, -h);
-            DrawPerspectiveLine(-h, -h, -h, -h, -h, h); 
+            DrawPerspectiveLine(2 * h, -h, -h, 2 * h, h, -h);
+            DrawPerspectiveLine(2 * h, h, -h, -2 * h, h, -h);
+            DrawPerspectiveLine(-2 * h, h, -h, -2 * h, h, h);
+            DrawPerspectiveLine(-2 * h, h, h, -2 * h, -h, h);
+            DrawPerspectiveLine(-2 * h, -h, h, 2 * h, -h, h);
+            DrawPerspectiveLine(2 * h, -h, h, 2 * h, -h, -h);
+            DrawPerspectiveLine(2 * h, h, -h, 2 * h, h, h);
+            DrawPerspectiveLine(2 * h, h, h, -2 * h, h, h);
+            DrawPerspectiveLine(2 * h, h, h, 2 * h, -h, h);
+            DrawPerspectiveLine(2 * h, -h, -h, -2 * h, -h, -h);
+            DrawPerspectiveLine(-2 * h, -h, -h, -2 * h, h, -h);
+            DrawPerspectiveLine(-2 * h, -h, -h, -2 * h, -h, h); 
         }
         private void DrawPerspectiveLine(double x1, double y1, double z1, double x2, double y2, double z2)
         {
