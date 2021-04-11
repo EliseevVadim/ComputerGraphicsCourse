@@ -10,12 +10,6 @@ using System.Windows.Forms;
 
 namespace Lab15_Course2
 {
-    public struct Point3D
-    {
-        public int X;
-        public int Y;
-        public int Z;
-    }
     public partial class Form1 : Form
     {
         Graphics graphics;
